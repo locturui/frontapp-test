@@ -20,7 +20,9 @@
           :items="navLinks" 
           :collapsed="isCollapsed"           
           :ui="{
-            linkLeadingIcon: 'text-lg'
+            linkLeadingIcon: [
+              isCollapsed ? 'text-2xl mx-auto' : 'text-lg',
+            ] 
           }"
         />
       </div>
