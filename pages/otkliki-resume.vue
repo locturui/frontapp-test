@@ -125,7 +125,7 @@ const statusLabel = computed(() => {
           <Icon name="tabler:info-square-rounded-filled" size="48"/>
           Файлы портфолио:
         </p>
-        <!-- Файлы (не нашел в апишке поля, надеюсь нормально) -->
+        <span v-if="profile.portfolios">{{ profile.portfolios }}</span>
       </div>
     </template>
   </UCard>
