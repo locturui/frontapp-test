@@ -41,8 +41,8 @@ const statusLabel = computed(() => {
         <UButton icon="tabler:file-type-doc" color="primary" variant="soft" class="text-3xl" />
         <UButton icon="tabler:file-pencil" color="primary" variant="soft" class="text-3xl" />
         <UButton icon="tabler:trash" color="error" variant="soft" class="text-3xl" />
-        <UButton icon="i-heroicons-paper-clip" color="primary" variant="soft" class="text-3xl" />
-        <UButton icon="i-heroicons-heart" color="primary" variant="soft" class="text-3xl" />
+        <UButton icon="tabler:file-arrow-right" color="primary" variant="soft" class="text-3xl" />
+        <UButton icon="tabler:heart" color="primary" variant="soft" class="text-3xl" />
       </div>
 
       <div class="flex gap-6 items-start">
